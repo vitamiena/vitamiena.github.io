@@ -312,7 +312,7 @@
 	-ms-animation: fadeIn 0.5s linear 0.5s both;
 	animation: fadeIn 0.5s linear 0.5s both;
 }
-.sl-trans-back-elems .slide-icon{
+.sl-trans-back-elems .deco{
 	-webkit-animation: scaleDown 1s ease-in-out both;
 	-moz-animation: scaleDown 1s ease-in-out both;
 	-o-animation: scaleDown 1s ease-in-out both;
