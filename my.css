@@ -1,0 +1,68 @@
+.slide-table, .slide-table tr {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-collapse: collapse;
+    /* border: 1px solid #ddd; */
+}
+
+.slide-table td, .slide-table th {
+    padding: 10px;
+}
+
+.display {
+    width: 100%;
+    height: 100%;
+    display: table;
+    text-align: center;
+
+    position: absolute;
+    top: 20%;
+}
+
+.display > * {
+    display: table-cell;
+    text-align: center;
+}
+
+.slide-icon {
+    font-size: 10em;
+}
+
+.slide-content {
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	left: 0;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 20px;
+	height: 70px;
+	color: #8b8b8b;
+	z-index: 2;
+	top: 40%;
+	margin: 0 0 -200px 0;
+	padding: 0;
+}
+
+.slide-content p{
+	margin: 0 auto;
+	width: 60%;
+	max-width: 400px;
+	position: relative;
+}
+
+.slide-content p:before {
+	color: #f0f0f0;
+	color: rgba(244,244,244,0.65);
+	font-family: "Bookman Old Style", Bookman, Garamond, serif;
+	position: absolute;
+	line-height: 60px;
+	width: 75px;
+	height: 75px;
+	font-size: 200px;
+	z-index: -1;
+	left: -80px;
+	top: 35px;
+	content: '\201C';
+}
