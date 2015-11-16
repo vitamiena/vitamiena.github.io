@@ -291,7 +291,7 @@
 
 /* Animations for content elements */
 
-.sl-trans-elems .deco{
+.sl-trans-elems .slide-icon{
 	-webkit-animation: roll 1s ease-out both, fadeIn 1s ease-out both;
 	-moz-animation: roll 1s ease-out both, fadeIn 1s ease-out both;
 	-o-animation: roll 1s ease-out both, fadeIn 1s ease-out both;
@@ -312,7 +312,7 @@
 	-ms-animation: fadeIn 0.5s linear 0.5s both;
 	animation: fadeIn 0.5s linear 0.5s both;
 }
-.sl-trans-back-elems .deco{
+.sl-trans-back-elems .slide-icon{
 	-webkit-animation: scaleDown 1s ease-in-out both;
 	-moz-animation: scaleDown 1s ease-in-out both;
 	-o-animation: scaleDown 1s ease-in-out both;
