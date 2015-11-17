@@ -1,5 +1,5 @@
 .slide-table, .slide-table tr {
-    margin-left: auto;
+    margin-left: 30%;
     margin-right: auto;
     width: 50%;
     border-collapse: collapse;
@@ -8,6 +8,7 @@
 
 .slide-table td, .slide-table th {
     padding: 10px;
+    text-align: left;
 }
 
 .display {
